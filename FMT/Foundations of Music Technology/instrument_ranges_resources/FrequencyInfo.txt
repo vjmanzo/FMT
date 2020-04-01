@@ -1,0 +1,4 @@
+male, Fullness~120Hz Boominess:~240Hz Presence/Recognition: 2kHz - 4kHz Sibilance: 4kHz - 9kHz Breath/Air: 10kHz - 16kHz;
+male2, Fullness~120Hz Boominess:~240Hz Presence/Recognition: 2kHz - 4kHz Sibilance: 4kHz - 9kHz Breath/Air: 10kHz - 16kHz;
+male3, Fullness~120Hz Boominess:~240Hz Presence/Recognition: 2kHz - 4kHz Sibilance: 4kHz - 9kHz Breath/Air: 10kHz - 16kHz;
+male4, Fullness~120Hz Boominess:~240Hz Presence/Recognition: 2kHz - 4kHz Sibilance: 4kHz - 9kHz Breath/Air: 10kHz - 16kHz;

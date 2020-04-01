@@ -1,0 +1,8 @@
+This project requires the EAMIR SDK 2.7.1 or higher. Please download this from the Max Package Manager or at the EAMIR website www.eamir.org
+
+To compile:
+
+1) Choose Max menus from File Menu (Wow—-that’ll make you feel stupid trying to figure out why you can’t unlock this!)
+2) Increment fmt_version_current.txt
+3) Build standalone from Project on Desktop
+4) show package contents of build (right click build) and copy the entire contents of the media folder to Contents/Resources/C74/media

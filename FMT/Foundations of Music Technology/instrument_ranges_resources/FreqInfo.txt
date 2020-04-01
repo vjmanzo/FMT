@@ -1,0 +1,6 @@
+none, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
+sub, Freq Range: 16 Hz - 60 Hz;
+bass, Freq Range: 60 Hz - 250 Hz;
+mid, Freq Range: 250 Hz - 2k Hz;
+highmid, Freq Range: 2k Hz - 6k Hz ;
+high, Freq Range: 6k Hz - 20k Hz;

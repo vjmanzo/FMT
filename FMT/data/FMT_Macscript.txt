@@ -1,0 +1,2 @@
+open thispatcher
+appicon "Macintosh HD:/Users/VJ/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/misc_crap/FMT Icon/fin/FMT.icns"

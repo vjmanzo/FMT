@@ -1,0 +1,30 @@
+none, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
+sub, Freq Range: 16 Hz - 60 Hz \
+- Felt more than heard \
+- Sense of power \
+- Too much is muddy;
+bass, Freq Range: 60 Hz - 250 Hz \
+- Fundamental notes of rhythm section \
+- Increase to make sound fatter \
+- Decrease to make sound thinner \
+- Too much sounds boomy;
+mid, Freq Range 250 Hz - 2k Hz \
+- Low-order harmonics of most instruments \
+- Too much 500 - 1k can be honking \
+- Too much 1k - 2k can be tinny;
+highmid, Freq Range: 2k Hz - 4k Hz \
+- Percussive attack \
+- Vocal recognition \
+- Hard consonants \
+- Too much can bring on listener fatigue \
+\
+Freq Range: 4k Hz - 6k Hz \
+- Clarity and definition \
+- Boost to bring forward in mix \
+- Cut to reduce sibilance;
+high, Freq Range: 6k Hz - 20k Hz \
+- Brightness / Crispness \
+- Not enough is dull or flat \
+- Too much 6k-8k is sibilant \
+- Too much 8k - 16k is brittle \
+- Sensed more than heard above 16k;

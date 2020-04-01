@@ -1,0 +1,159 @@
+none, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
+low, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
+midlow, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
+middle, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
+midhigh, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
+high, - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
+male, Fullness: ~120Hz \
+Boominess: ~240Hz \
+Presence/Recognition: 2kHz - 4kHz \
+Sibilance: 4kHz - 9kHz \
+Breath/Air: 10kHz - 16kHz;
+female, Fullness: ~240Hz \
+Presence/Recognition: 2kHz - 4kHz \
+Sibilance: 4kHz - 9kHz \
+Breath/Air: 10kHz - 16kHz;
+kick, Bottom/Punch: 50 - 100Hz \
+Fullness: 100 - 250Hz \
+Attack: 3kHz - 5kHz \
+Notes: \
+- Hollowness ~400Hz \
+- Mudiness below 800Hz;
+tympani, Fundamental: 125 - 150Hz \
+Primary Modes: 145 - 360Hz \
+Attack: ~3kHz;
+toms, FLOOR TOM \
+Fullness: 80 - 120Hz \
+Attack: ~5kHz \
+\
+RACK TOMS \
+Fullness: 240 - 400Hz \
+Attack: 5kHz - 7kHz;
+snare, Ring: ~900Hz \
+Fullness: 120 - 240Hz \
+Attack/Crisp: 2.5kHz - 5kHz \
+Snap: ~10kHz;
+congas, Resonant/Rings: 200 - 240Hz \
+Presence/Slap: 4kHz - 5kHz;
+cymbals, Clang: ~200Hz \
+Presence: ~3kHz \
+Shimmer: 7.5kHz - 12kHz;
+tuba, Low Fundamental: \
+B0 (29 Hz) \
+\
+Overtones: 1.5 kHz - 2 KHz;
+french, Fundamentals: \
+B1 - G5 (55 - 700 Hz) \
+\
+Formants: ~340 Hz \, 750 Hz - 3.5kHz;
+basst, Fundamentals: \
+Bb1 - G4 (58 - 400 Hz) \
+\
+Overtones: Up to 4kHz \
+Overblow: Up to 8kHz;
+tenort, Fundamentals: \
+E2 - C5 (82 - 520 Hz) \
+\
+Overtones: Up to 5kHz \
+Overblow: Up to 10kHz;
+trumpet, Fundamentals: \
+E3 - D6 (165 Hz - 1.2kHz) \
+\
+Formants: 1 - 1.5kHz and 2 - 3kHz \
+Notes: Piercing at ~5kHz;
+contra, Fundamentals: \
+Bb0 - G3 (29 - 200 Hz) \
+\
+Overtones: Up to 4kHz;
+bassoon, Fundamentals: \
+Bb1 - E5 (55 - 575 Hz) \
+\
+Overtones: Up to 9kHz;
+tenors, Fundamentals: \
+B2 - F5 (120 - 725 Hz) \
+\
+Overtones: Up to 8kHz \
+Breath: Up to 13kHz;
+altos, Fundamentals: \
+C#3 - G5 (139 - 785 Hz) \
+\
+Overtones: Up to 8kHz \
+Breath: Up to 13kHz;
+clarinet, Fundamentals: \
+C#3 - G6 (139 Hz - 1.6kHz) \
+\
+Overtones: \
+- Soft up to 1.5kHz \
+- Loud up to 12kHz;
+oboe, Fundamentals: \
+Bb3 - G6 (250 Hz - 1.5kHz) \
+\
+Overtones: Up to 12kHz;
+flute, Fundamentals: \
+B3 - C7 (247 Hz - 2.1kHz) \
+\
+Overtones: Up to 3kHz - 6kHz \
+Overblow: Up to 8kHz;
+piccolo, Fundamentals: \
+E5 - B7 (630 Hz - 4kHz) \
+\
+Overtones: Up to 16kHz;
+bass, Fundamentals: \
+E1 - F4 (41 -343 Hz) \
+Low Fundamentals > B0 \
+\
+Bottom: 50 - 80 Hz \
+Attack / Pick: 700 Hz - 1kHz \
+Notes: \
+- 2.5kHz Snap/String Noise \
+- Pick/Slap harmonics up to 4kHz;
+cello, Fundamentals: \
+C2 - C5 (56 - 520 Hz) \
+\
+Fullness: ~240 Hz \
+Overtones: Less than 8kHz;
+viola, Fundamentals: \
+C3 - C6 (125 Hz - 1kHz) \
+\
+Overtones: Up to 6.3kHz \
+Fullness: 220 Hz - 240 Hz \
+Notes: \
+- Scratchiness at 7kHz - 10kHz \
+- Tuned 1/5th lower than Violin;
+violin, Fundamentals: \
+G3 - E6 (200 Hz - 1.3kHz) \
+\
+Fullness: ~240 Hz \
+Formants: 300 Hz \, 1kHz \, and 1.2kHz \
+Overtones: Up to 16kHz \
+Notes: \
+- Scratchiness at 7kHz - 10kHz;
+guitar, Fundamentals: \
+E2 - D6 (82 Hz - 1.2kHz) \
+\
+Fullness: \
+- 80 Hz (Acoustic) \
+- 240 - 500 Hz (Electric) \
+Body: ~240 (Acoustic) \
+Presence: 2kHz - 5kHz \
+Notes: \
+- Sound hole resonates at ~80 - 100 Hz (Acoustic);
+harp, Fundamentals: \
+Bb0 - G7 (29 - 3.1kHz) \
+\
+Overtones: Up to 4kHz - 6kHz;
+pipe, Fundamentals: \
+E0 - A8 (20 Hz - 7.1kHz) \
+\
+Fullness: 80 Hz \
+Presence: 2kHz - 5kHz \
+Notes: \
+- Body ~240 Hz;
+piano, Fundamentals: \
+A0 - C8 (27 Hz - 4.2kHz) \
+\
+Fullness: 80 - 120 Hz \
+Presence: 2kHz - 5kHz \
+Notes: \
+- Resonance at ~40 - 60 Hz \
+- Honky-tonk at 2.5kHz;

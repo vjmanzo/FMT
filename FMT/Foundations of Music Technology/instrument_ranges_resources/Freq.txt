@@ -1,0 +1,6 @@
+none, MOVE CURSOR OVER FREQUENCY CHART FOR MORE INFORMATION;
+sub, Sub Bass Range;
+bass, Bass Range;
+mid, Mid Range;
+highmid, High Mid Range;
+high, High Frequency Range;
