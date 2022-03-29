@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 191.0, 59.0, 1115.0, 812.0 ],
+		"rect" : [ 191.0, 66.0, 1119.0, 812.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"title" : "FMT",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -180,6 +181,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-88",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "fmt_lessonsmenu.maxpat",
 					"numinlets" : 1,
@@ -380,7 +382,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-74",
-					"items" : [ "Built-in Output", ",", "Fireface UFX (23351100)", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "External Headphones", ",", "MacBook Pro Speakers" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -446,7 +448,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-7",
-					"items" : [ "Built-in Microphone", ",", "Fireface UFX (23351100)", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "MacBook Pro Microphone" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -527,7 +529,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 417.0, 155.0, 48.0, 35.0 ],
+					"patching_rect" : [ 417.0, 155.0, 51.0, 35.0 ],
 					"text" : "receive to_dac"
 				}
 
@@ -715,8 +717,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -749,6 +751,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1079,8 +1082,8 @@
 					"patching_rect" : [ 613.0, 302.0, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "Macintosh HD:/Users/VJ/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/data/FMT.icns",
-						"appicon_win" : "Macintosh HD:/Users/VJ/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/data/FMT.ico",
+						"appicon_mac" : "Macintosh HD:/Users/VJ/Documents/GitHub/FMT/FMT/data/FMT.icns",
+						"appicon_win" : "Macintosh HD:/Users/VJ/Documents/GitHub/FMT/FMT/data/FMT.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "com.clearbluemedia.fmt",
 						"cantclosetoplevelpatchers" : 0,
@@ -1439,12 +1442,12 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
+							"parameter_longname" : "live.gain~[11]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[11]",
-							"parameter_mmax" : 6.0
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -1595,6 +1598,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "MIDI_input.maxpat",
 					"numinlets" : 0,
@@ -1751,8 +1755,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1785,6 +1789,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.917647, 0.85098, 1.0, 1.0 ],
@@ -2093,6 +2098,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-10",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "EAMIR_info.maxpat",
 					"numinlets" : 0,
@@ -2113,6 +2119,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-40",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "intro_page.maxpat",
 					"numinlets" : 0,
@@ -2249,6 +2256,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-59",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "VJManzo_info.maxpat",
 					"numinlets" : 0,
@@ -2887,126 +2895,140 @@
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "VJ_skin.png",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "VJManzo_info.maxpat",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "VJManzo_logo.png",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "intro_page.maxpat",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "redspeaker2.png",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fmt(2015).png",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fmt_versions.maxpat",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fmt_version_current.txt",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "EAMIR_info.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
-				"patcherrelativepath" : "../../../../../../../../../../Documents/Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"patcherrelativepath" : "../../../../Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_logo.png",
 				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers",
-				"patcherrelativepath" : "../../../../../../../../../../Documents/Max 8/Packages/EAMIR SDK/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/EAMIR SDK/patchers",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIDI_input.maxpat",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "VJManzo_info.maxpat",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "VJManzo_logo.png",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"patcherrelativepath" : ".",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "VJ_skin.png",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"patcherrelativepath" : ".",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cbmlogowhite.png",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
+				"patcherrelativepath" : "../../../../Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fmt(2015).png",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "fmt_lessons.maxpat",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fmt_lessonsmenu.maxpat",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "fmt_version_current.txt",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fmt_versions.maxpat",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "intro_page.maxpat",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "redspeaker2.png",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "vj.appmenuabout.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
-				"patcherrelativepath" : "../../../../../../../../../../Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
+				"patcherrelativepath" : "../../../../Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vj_cbmbackground.jpg",
 				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
-				"patcherrelativepath" : "../../../../../../../../../../Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
+				"patcherrelativepath" : "../../../../Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
 				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cbmlogowhite.png",
-				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
-				"patcherrelativepath" : "../../../../../../../../../../Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
-				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "VJ Classic",
+				"ezadc~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
+				"ezdac~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
 				"default" : 				{
+					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -3017,10 +3039,9 @@
 						"autogradient" : 0
 					}
 ,
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
-					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ]
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"umenu" : 				{
@@ -3035,18 +3056,6 @@
 					}
 ,
 					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
-				}
-,
-				"ezadc~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
-				}
-,
-				"ezdac~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3072,7 +3081,20 @@
 			}
 , 			{
 				"name" : "VJ Classic-1-1",
+				"ezadc~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
+				"ezdac~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
 				"default" : 				{
+					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -3083,10 +3105,9 @@
 						"autogradient" : 0
 					}
 ,
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
-					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ]
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"umenu" : 				{
@@ -3101,18 +3122,6 @@
 					}
 ,
 					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
-				}
-,
-				"ezadc~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
-				}
-,
-				"ezdac~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

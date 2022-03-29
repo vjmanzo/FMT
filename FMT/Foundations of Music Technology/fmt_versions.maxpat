@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 131.0, 79.0, 871.0, 759.0 ],
+		"rect" : [ 131.0, 100.0, 871.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
@@ -59,7 +60,7 @@
 					"patching_rect" : [ 327.0, 248.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 103.0, 0.0, 29.5, 22.0 ],
-					"text" : "1.8",
+					"text" : "1.9",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -99,7 +100,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 327.0, 173.0, 154.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0
+						"embed" : 0,
+						"precision" : 6
 					}
 ,
 					"text" : "coll fmt_version_current.txt"
@@ -157,8 +159,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -191,6 +193,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.917647, 0.85098, 1.0, 1.0 ],
@@ -368,7 +371,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 0.0 ],
 					"id" : "obj-47",
 					"maxclass" : "jweb",
 					"numinlets" : 1,
@@ -444,7 +446,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "fmt_version_current.txt",
-				"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -453,16 +455,20 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "VJ Classic",
+				"ezadc~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
 				"ezdac~" : 				{
 					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"default" : 				{
 					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -473,13 +479,9 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
-				}
-,
-				"ezadc~" : 				{
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"umenu" : 				{
@@ -519,16 +521,20 @@
 			}
 , 			{
 				"name" : "VJ Classic-1-1",
+				"ezadc~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
 				"ezdac~" : 				{
 					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"default" : 				{
 					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -539,13 +545,9 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
-				}
-,
-				"ezadc~" : 				{
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"umenu" : 				{
