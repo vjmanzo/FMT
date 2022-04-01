@@ -1,9 +1,9 @@
 {
 	"name" : "FMT",
 	"version" : 1,
-	"creationdate" : 2082826798,
-	"modificationdate" : 3653934371,
-	"viewrect" : [ 25.0, 79.0, 300.0, 500.0 ],
+	"creationdate" : 2082826677,
+	"modificationdate" : 3731675443,
+	"viewrect" : [ 25.0, 100.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,21 +16,6 @@
 				"toplevel" : 1
 			}
 ,
-			"VJManzo_info.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"intro_page.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"fmt_versions.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"EAMIR_info.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -41,12 +26,27 @@
 				"local" : 1
 			}
 ,
+			"VJManzo_info.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"fmt_lessons.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"fmt_lessonsmenu.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"fmt_versions.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"intro_page.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -205,7 +205,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology/FX",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology/FX",
 					"projectrelativepath" : "./Foundations of Music Technology/FX"
 				}
 
@@ -215,7 +215,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology/FX",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology/FX",
 					"projectrelativepath" : "./Foundations of Music Technology/FX"
 				}
 
@@ -225,7 +225,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology/FX",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology/FX",
 					"projectrelativepath" : "./Foundations of Music Technology/FX"
 				}
 
@@ -235,7 +235,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology/FX",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology/FX",
 					"projectrelativepath" : "./Foundations of Music Technology/FX"
 				}
 
@@ -265,7 +265,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -280,7 +280,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -290,7 +290,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -300,7 +300,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -310,7 +310,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -320,7 +320,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -350,7 +350,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -360,7 +360,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -406,11 +406,16 @@
 				"local" : 1
 			}
 ,
+			"channel_strip_2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"masking.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -420,7 +425,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -435,7 +440,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -445,7 +450,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -455,7 +460,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -465,7 +470,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -481,7 +486,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Desktop",
-					"projectrelativepath" : "../../../../../../../../../Desktop"
+					"projectrelativepath" : "../../../../Desktop"
 				}
 
 			}
@@ -490,7 +495,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -500,7 +505,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -510,7 +515,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -519,7 +524,7 @@
 		}
 ,
 		"media" : 		{
-			"VJ_skin.png" : 			{
+			"EAMIR_logo.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -529,7 +534,7 @@
 				"local" : 1
 			}
 ,
-			"redspeaker2.png" : 			{
+			"VJ_skin.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -539,7 +544,7 @@
 				"local" : 1
 			}
 ,
-			"EAMIR_logo.png" : 			{
+			"redspeaker2.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -623,7 +628,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -633,7 +638,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -643,7 +648,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
+					"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
 					"projectrelativepath" : "./Foundations of Music Technology"
 				}
 
@@ -723,13 +728,7 @@
 ,
 		"other" : 		{
 			"Icon\r" : 			{
-				"kind" : "file",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Working Projects/Docs/_Publications/Books/FMT/_source/final/FMT/Foundations of Music Technology",
-					"projectrelativepath" : "./Foundations of Music Technology"
-				}
-
+				"kind" : "file"
 			}
 ,
 			"VJ.icns" : 			{
