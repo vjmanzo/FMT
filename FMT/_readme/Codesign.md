@@ -90,6 +90,7 @@
 
 - https://developer.apple.com/documentation/security/notarizing\_macos\_software\_before\_distribution/customizing\_the\_notarization\_workflow
 - https://scriptingosx.com/2021/07/notarize-a-command-line-tool-with-notarytool/
-- [https://developer.apple.com/account/resources/certificates/add](https://developer.apple.com/account/resources/certificates/add)
+- https://cycling74.com/forums/issue-with-code-signing-mac-standalones-with-hardened-runtime#reply-5ec5bf25545dcb52fb3c166a
+- https://cycling74.com/forums/mac-standalone-codesigning-2021-update
 - [https://developer.apple.com/account/resources/certificates/add](https://developer.apple.com/account/resources/certificates/add)
 - [https://support.apple.com/en-us/102654](https://support.apple.com/en-us/102654)
