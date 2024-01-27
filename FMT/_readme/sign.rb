@@ -1,3 +1,5 @@
+# https://cycling74.com/forums/mac-standalone-codesigning-2021-update
+# Author: Dan Nigrin
 require 'open3'
 
 authority = "Developer ID Application: Clear Blue Media LLC (HSAYDGFEVC)"
