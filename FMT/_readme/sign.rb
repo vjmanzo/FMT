@@ -3,8 +3,8 @@
 require 'open3'
 
 authority = "Developer ID Application: Clear Blue Media LLC (HSAYDGFEVC)"
-entitlements = "/Users/jacobpelrah/Desktop/FMT.app/Contents/FMT.entitlements"
-appbundle = "FMT.app"
+entitlements = "/Users/VJ/Desktop/FMT.app/Contents/FMT.entitlements"
+appbundle = "/Users/VJ/Desktop/FMT.app"
 appname = "FMT"
 resources = [];
 count = 1;

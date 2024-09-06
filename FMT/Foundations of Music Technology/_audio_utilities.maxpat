@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 172.0, 66.0, 1119.0, 812.0 ],
+		"rect" : [ 289.0, 152.0, 1119.0, 812.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -382,7 +382,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-74",
-					"items" : [ "None", ",", "External Headphones", ",", "MacBook Pro Speakers" ],
+					"items" : [ "None", ",", "SAMSUNG (1)", ",", "SAMSUNG (2)", ",", "Mac Studio Speakers", ",", "Fireface UFX+ (23782225)", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -448,7 +448,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-7",
-					"items" : [ "None", ",", "MacBook Pro Microphone" ],
+					"items" : [ "None", ",", "HD Pro Webcam C920", ",", "VPhone-13 Microphone", ",", "Fireface UFX+ (23782225)", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -717,8 +717,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1082,8 +1082,8 @@
 					"patching_rect" : [ 613.0, 302.0, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "Macintosh HD:/Users/VJ/Documents/GitHub/FMT/FMT/data/FMT.icns",
-						"appicon_win" : "Macintosh HD:/Users/VJ/Documents/GitHub/FMT/FMT/data/FMT.ico",
+						"appicon_mac" : "Media:/Git Repos/_GitHub/FMT/FMT/data/FMT.icns",
+						"appicon_win" : "Media:/Git Repos/_GitHub/FMT/FMT/data/FMT.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "com.clearbluemedia.fmt",
 						"cantclosetoplevelpatchers" : 0,
@@ -1445,6 +1445,7 @@
 							"parameter_longname" : "live.gain~[11]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -1549,7 +1550,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-30",
-					"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+					"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1755,8 +1756,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2902,41 +2903,41 @@
 		"dependency_cache" : [ 			{
 				"name" : "EAMIR_info.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
-				"patcherrelativepath" : "../../../../Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"patcherrelativepath" : "../../../../../../../Users/VJ/Documents/Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_logo.png",
 				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers",
-				"patcherrelativepath" : "../../../../Max 8/Packages/EAMIR SDK/patchers",
+				"patcherrelativepath" : "../../../../../../../Users/VJ/Documents/Max 8/Packages/EAMIR SDK/patchers",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIDI_input.maxpat",
-				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "VJManzo_info.maxpat",
-				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "VJManzo_logo.png",
-				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "VJ_skin.png",
-				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
@@ -2944,55 +2945,55 @@
 , 			{
 				"name" : "cbmlogowhite.png",
 				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
-				"patcherrelativepath" : "../../../../Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
+				"patcherrelativepath" : "../../../../../../../Users/VJ/Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fmt(2015).png",
-				"bootpath" : "~/Documents/GitHub/FMT/FMT/media",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/FMT/FMT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fmt_lessons.maxpat",
-				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fmt_lessonsmenu.maxpat",
-				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fmt_version_current.txt",
-				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fmt_versions.maxpat",
-				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "intro_page.maxpat",
-				"bootpath" : "~/Documents/GitHub/FMT/FMT/Foundations of Music Technology",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/FMT/FMT/Foundations of Music Technology",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "redspeaker2.png",
-				"bootpath" : "~/Documents/GitHub/FMT/FMT/media",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/FMT/FMT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
@@ -3000,14 +3001,14 @@
 , 			{
 				"name" : "vj.appmenuabout.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
-				"patcherrelativepath" : "../../../../Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
+				"patcherrelativepath" : "../../../../../../../Users/VJ/Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vj_cbmbackground.jpg",
 				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
-				"patcherrelativepath" : "../../../../Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
+				"patcherrelativepath" : "../../../../../../../Users/VJ/Documents/Max 8/Packages/EAMIR SDK/externals/V Objects/vj.appmenu",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
@@ -3015,22 +3016,16 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "VJ Classic",
-				"ezdac~" : 				{
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
 				"default" : 				{
 					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0,
+						"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 						"color2" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-						"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 ,
 					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
@@ -3044,15 +3039,21 @@
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
+				"ezdac~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
 				"umenu" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0,
+						"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 						"color2" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-						"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 ,
 					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
@@ -3065,12 +3066,12 @@
 				"name" : "VJ Classic-1",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 0,
+						"color" : [ 0.954082, 0.954082, 0.954082, 0.59 ],
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.954082, 0.954082, 0.954082, 0.59 ],
-						"angle" : 0,
-						"proportion" : 0.39
+						"proportion" : 0.39,
+						"type" : "color"
 					}
 ,
 					"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
@@ -3081,22 +3082,16 @@
 			}
 , 			{
 				"name" : "VJ Classic-1-1",
-				"ezdac~" : 				{
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
 				"default" : 				{
 					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0,
+						"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 						"color2" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-						"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 ,
 					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
@@ -3110,15 +3105,21 @@
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
+				"ezdac~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
 				"umenu" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0,
+						"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 						"color2" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-						"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 ,
 					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
