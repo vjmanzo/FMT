@@ -18,7 +18,7 @@
 
 6. **Build** the FMT standalone.
 
-7. **Copy** the **media** folder to **Resources/C74/media** , the app icon to **Resources/FMT.icns** (if not already built into the standalone while compiling) and entitlements file (see below) to **Contents/FMT.entitlements**.
+7. **Copy** the contents of the **media** folder to **Resources/C74/media** , the app icon to **Resources/FMT.icns** (if it's not already built into the standalone while compiling), and the entitlements file (see below) to **Contents/FMT.entitlements**.
 
 <br><br>
 
@@ -48,11 +48,11 @@
 
 **FMT.entitlements**
 
-see [https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/FMT.entitlements](this) file.
+see [this](https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/FMT.entitlements) file.
 
 **sign.rb**
 
-see [https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/sign.rb](this) file; you'll need to change the path on lines 6 and 7 to the location of your build.
+see [this]([https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/sign.rb) file; you'll need to change the path on lines 6 and 7 to the location of your build.
 
 
 
