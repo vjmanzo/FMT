@@ -12,17 +12,23 @@
 
 5. From a **terminal** run the command: **security find-identity -v -p codesigning.** If the new **Developer ID Application** identity is not found in the list, troubleshoot your certificates and keychain.
 
-**Build the application**
+<br><br>
+
+**Build the application in Max**
 
 6. **Build** the FMT standalone.
 
-7. **Copy** the **media** folder to **Resources/C74/media** , the app icon to **Resources/FMT.icns** and entitlements file (see below) to **Contents/FMT.entitlements**.
+7. **Copy** the **media** folder to **Resources/C74/media** , the app icon to **Resources/FMT.icns** (if not already built into the standalone while compiling) and entitlements file (see below) to **Contents/FMT.entitlements**.
+
+<br><br>
 
 **Codesign**
 
 8. Recursively clear the extended attributes of FMT.app by running **xattr -cr FMT.app**
 
-9. Codesign all files in the app by running **ruby sign.rb FMT.app**
+9. Codesign all files in the app by running **ruby sign.rb FMT.app** (see below)
+
+<br><br>
 
 **Notarize**
 
@@ -36,38 +42,18 @@
 
 14. Correct the errors in developer\_log.json and repeat the steps.
 
+15. If there are no errors, you're good to go!
+
+<br><br>
+
 **FMT.entitlements**
 
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>com.apple.security.app-sandbox</key>
-    <true/> 
-    <key>com.apple.security.inherit</key>
-    <true/>
-    <key>com.apple.security.automation.apple-events</key>
-    <true/>
-    <key>com.apple.security.cs.allow-jit</key>
-    <true/>
-    <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
-    <true/>
-    <key>com.apple.security.cs.disable-library-validation</key>
-    <true/>
-    <key>com.apple.security.device.audio-input</key>
-    <true/>
-    <key>com.apple.security.device.camera</key>
-    <true/>
-    <key>com.apple.security.get-task-allow</key>
-    <true/>
-    <key>com.apple.security.assets.music.read-only</key>
-    <true/>
-    <key>com.apple.security.assets.music.read-write</key>
-    <true/>
-    <key>com.apple.security.files.user-selected.read-write</key>
-    <true/>  
-</dict>
-</plist>
+see [https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/FMT.entitlements](this) file.
+
+**sign.rb**
+
+see [https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/sign.rb](this) file; you'll need to change the path on lines 6 and 7 to the location of your build.
+
 
 
 **Resources:**
