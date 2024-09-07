@@ -3,4 +3,4 @@ FMT is an application associated with the book Foundations of Music Technology b
 
 The source requires Max 7 or later and the EAMIR SDK package available through Max in the "Package Manager".
 
-For compiling and codesigning, see [https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/Codesign.md](this) ReadMe. 
+For compiling and codesigning, see [this](https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/Codesign.md) ReadMe. 
