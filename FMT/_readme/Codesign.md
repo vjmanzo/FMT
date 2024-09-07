@@ -52,7 +52,7 @@ see [this](https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/FMT.entitlemen
 
 **sign.rb**
 
-see [this]([https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/sign.rb) file; you'll need to change the path on lines 6 and 7 to the location of your build.
+see [this](https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/sign.rb) file; you'll need to change the path on lines 6 and 7 to the location of your build.
 
 
 
