@@ -24,7 +24,7 @@
 
 **Codesign**
 
-8. Recursively clear the extended attributes of FMT.app by running **xattr -cr FMT.app**. On your computer, that entire command may look like **xattr -cr /Users/VJ/Desktop/FMT.app** if your compiled FMT app is on the desktop.
+8. Recursively clear the extended attributes of FMT.app by running **xattr -cr FMT.app**. On your computer, that entire command may look like **xattr -cr /Users/VJ/Desktop/FMT.app** if your compiled FMT app is on the desktop and your name is VJ.
 
 9. Codesign all files in the app by running **ruby sign.rb FMT.app** (see below). On your computer, that entire command may look like **ruby /Users/VJ/GitHub/FMT/FMT/_readme/sign.rb /Users/VJ/Desktop/FMT.app** depending on the location of where you cloned this repository on your computer and where your FMT.app is on the desktop. 
 
