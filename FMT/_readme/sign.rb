@@ -2,7 +2,7 @@
 # Author: Dan Nigrin
 require 'open3'
 
-authority = "Developer ID Application: Clear Blue Media LLC (HSAYDGFEVC)"
+authority = "Developer ID Application: Clear Blue Media LLC (your-team-ID)"
 entitlements = "/Users/VJ/Desktop/FMT.app/Contents/FMT.entitlements"
 appbundle = "/Users/VJ/Desktop/FMT.app"
 appname = "FMT"
