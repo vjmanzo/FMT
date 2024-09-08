@@ -34,9 +34,9 @@
 
 10. Create a new **application specific password** in the **Apple ID portal** for your developer account. ([https://support.apple.com/en-us/102654](https://support.apple.com/en-us/102654)). This process will generate an app-specific password, which we'll need in step 13. 
 
-11. Create a new notary profile by running: **xcrun notarytool store-credentials --apple-id "your-apple-id" --team-id "HSAYDGFEVC"** This process will allow you to name a profile, so remember the name you assign your profile, which we'll need in step 13.
+11. Create a new notary profile by running: **xcrun notarytool store-credentials --apple-id "your-apple-id" --team-id "your-team-id"** This process will allow you to name a profile, so remember the name you assign your profile, which we'll need in step 13.
 
-12. Begin the notary process: **xcrun notarytool submit FMT.zip --keychain-profile "my-profile-name" --apple-id " your-apple-id" --team-id HSAYDGFEVC --password "app-specific-password" --wait.** This usually takes a few minutes.
+12. Begin the notary process: **xcrun notarytool submit FMT.zip --keychain-profile "my-profile-name" --apple-id " your-apple-id" --team-id "your-team-id" --password "app-specific-password" --wait.** This usually takes a few minutes.
 
 13. Check submission for errors **xcrun notarytool log "notarytool-uuid" --keychain-profile "my-profile-name" developer\_log.json**
 
