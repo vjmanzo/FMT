@@ -10,7 +10,7 @@
 
 4. Right click and **Evaluate** the certificate for **code signing**. Troubleshoot if evaluation status is not successful (Do you have the right certificate chain installed? Evaluate the intermediate certificates).
 
-5. From a **terminal** run the command: **security find-identity -v -p codesigning.** If the new **Developer ID Application** identity is not found in the list, troubleshoot your certificates and keychain. You'll need to update the [sign.rb](https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/sign.rb) file with this identity prior to step 9.
+5. From a **terminal** run the command: **security find-identity -v -p codesigning.** If the new **Developer ID Application** identity is not found in the list, troubleshoot your certificates and keychain. Take note of your "Entity Name" and "[Team ID](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id)" and you'll need to update the [sign.rb](https://github.com/vjmanzo/FMT/blob/master/FMT/_readme/sign.rb) file with this info prior to step 9 and also as part of the notarization process in steps 11 and 12. 
 
 <br><br>
 
@@ -34,9 +34,9 @@
 
 10. Create a new **application specific password** in the **Apple ID portal** for your developer account. ([https://support.apple.com/en-us/102654](https://support.apple.com/en-us/102654)). This process will generate an app-specific password, which we'll need in step 13. 
 
-11. Create a new notary profile by running: **xcrun notarytool store-credentials --apple-id "your-apple-id" --team-id "your-team-id"** This process will allow you to name a profile, so remember the name you assign your profile, which we'll need in step 13.
+11. Create a new notary profile by running: **xcrun notarytool store-credentials --apple-id "your-apple-id" --team-id "your-team-id"** replacing the two quoted variables with your information (not in quotes). This process will allow you to name a profile, so remember the name you assign your profile, which we'll need in step 13.
 
-12. Begin the notary process: **xcrun notarytool submit FMT.zip --keychain-profile "my-profile-name" --apple-id " your-apple-id" --team-id "your-team-id" --password "app-specific-password" --wait.** This usually takes a few minutes.
+12. Begin the notary process: **xcrun notarytool submit FMT.zip --keychain-profile "my-profile-name" --apple-id " your-apple-id" --team-id "your-team-id" --password "app-specific-password" --wait.** This process usually takes a few minutes.
 
 13. Check submission for errors **xcrun notarytool log "notarytool-uuid" --keychain-profile "my-profile-name" developer\_log.json**
 
